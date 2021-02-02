@@ -1,0 +1,375 @@
+/* Banner */
+/* Images */
+.main__container--banner-img{
+    width: 35%;
+    height: auto;
+}
+
+/* Contents */
+.main__container--banner-contents{
+    width: 65%;
+    height: 329px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main__container--banner-basic-contents{
+    color: #4d4d4d;
+    padding-bottom:10px;
+}
+
+.main__container--banner-span-contents{
+    color: #4d4d4d;
+}
+
+.first-span{
+    padding-top: 20px;
+}
+
+.main__container--banner-countdown-contents{
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.main__container--banner-button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-top: 15px;
+    background: #fa6400;
+    border-spacing: 0px;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+
+.main__container--banner-button:hover{
+    cursor: pointer;
+}
+
+/* Text_arena */
+/* Contents */
+.main__container--textarena-contents{
+    width: 60%;
+    height: 70%;
+    text-align: justify;
+    font-size: 10pt;
+    padding-left:50px;
+    padding-top: 50px;
+}
+
+.main__container--textarena-contents p:first-child{
+    margin-bottom: 15px;
+    font-size: 14.5pt;
+    font-weight: bolder;
+}
+
+.main__container--textarena-contents p{
+    padding-bottom: 15px;
+}
+
+/* Images */
+.main__container--textarena-image{
+    width: 40%;
+    margin: 0;
+}
+.main__container--textarena-image-i{
+    background-image: url(../images/user.png);
+    width: 218px;
+    height: 328px;
+    margin: 0 auto;
+}
+
+/* Footers */
+.main__container--textarena-footer{
+    width: 100%;
+    height: auto;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+/* Discount */
+.main__container--discount{
+    width: 100%;
+    height: auto;
+}
+
+.main__container--discount-image{
+    width: 938px;
+    height: auto;
+}
+
+/* Mid_content */
+.main__container--midContent{
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 15px;
+    font-size: 11.5pt;
+}
+
+/* Feature_image */
+.main__container--feature-image{
+    width: 100%;
+    height: auto;
+}
+
+/* Customer */
+.main__container--customer{
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+}
+
+/* Customer_images */
+.main__container--customer-userimg{
+    padding-top: 15px;
+    height: auto;
+}
+
+/* Customer_contents */
+.main__container--customer-content{
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.Content-2{
+    padding-bottom: 10px;
+}
+/* Customer_celeb */
+.main__container--customer-celeb{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celeb-img{
+    padding-left: 5px;  
+    padding-right: 5px;
+}
+
+.celeb-img p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Customer feedback */
+.main__container--customer-feedback{
+    width: 100%;
+    height: auto;
+}
+
+/* Shipment */
+.main__container--customer-shipment{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+/* Shipment_content */
+.main__container--customer-shipment-content{
+    width: 56%;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.main__container--customer-shipment-content h3{
+    padding: 75px 0 75px 0;
+}
+
+.main__container--customer-shipment-content p{
+    color: #000;
+    font-weight: 500;
+}
+
+/* Shipment_image */
+.main__container--customer-shipment-image{
+    width: 43%;
+    height: auto;
+}
+
+#main__container--customer-shipment-img{
+    width: 100%;
+    height: auto;
+}
+
+/* Footer image */
+.main__footer--image{
+    width: 100%;
+    height: auto;
+}
+
+/* Respone */
+/* IP6 */
+@media only screen and (min-width: 375px) and (max-width: 767px){
+    body .main{
+        width: 100%;
+    }
+
+    .main .main__container{
+        width: 100%;
+    }
+
+    /* Banner */
+    .main__container--banner{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main__container--banner-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main__container--banner-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .main__container--banner-contents{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main__container--banner-bold-contents{
+        font-size: 12.5pt;
+    }
+
+    /* Text_arena */
+    .main__container--textarena{
+        width: 100%;
+    }
+
+    .main__container--textarena-contentAndImage{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main__container--textarena-contents{
+        width: 85%;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+
+    .main__container--textarena-contents p:first-child{
+        margin-bottom: 15px;
+        font-size: 13.5pt;
+        font-weight: bolder;
+    }
+
+    .main__container--textarena-image{
+        width: 100%;
+    }
+
+    .main__container--textarena-footer{
+        width: 100%;
+        padding: 25px 0px;
+        font-size: 13pt;
+    }
+
+    /* Discount */
+    .main__container--discount{
+        width: 100%;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__container--discount{
+        width: 100%;
+    }
+    
+    .main__container--discount-image{
+        width: 100%;
+    }
+
+    /* Customer */
+    .main__container--customer-userimg{
+        width: 100%;    
+    }
+
+    /* Celeb */
+    .main__container--customer-celeb{
+        flex-direction: column;
+    }
+
+    .celeb-img{
+        padding-bottom: 15px;
+    }
+
+    /* Shipment */
+    .main__container--customer-shipment{
+        flex-direction: column;
+    }
+
+    .main__container--customer-shipment-content{
+        width: 100%;
+        padding: 0;
+    }
+        
+    .main__container--customer-shipment-content h3{
+        padding: 50px 0 50px 0;
+    }
+
+    .main__container--customer-shipment-image{
+        width: 100%;
+        padding-top: 15px;
+    }
+}
+
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    body .main{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main .main__container{
+        width: 100%;
+    }
+    
+    /* Banner */
+
+    .main__container--banner-img{
+        width: 35%;
+    }
+
+    .main__container--banner-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .main__container--banner-bold-contents{
+        text-align: center;
+    }
+
+    /* Discount */
+    .main__container--discount{
+        width: 100%;
+    }
+    
+    .main__container--discount-image{
+        width: 100%;
+    }
+
+    /* Customer */
+    .main__container--customer-userimg{
+        width: 100%;
+    }
+
+    /* Celeb */
+    .celeb-img{
+        width: 100%;
+    }
+
+    .celeb-img img{
+        width: 100%;
+    }
+}
